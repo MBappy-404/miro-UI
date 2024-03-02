@@ -1,8 +1,11 @@
 
 import Banner from "./components/Banner/Banner";
+import BuildWork from "./components/BuildWork/BuildWork";
 import Collaborate from "./components/Collaborate/Collaborate";
 import Connect from "./components/Connect/Connect";
 import Navbar from "./components/Navbar/Navbar";
+import BuildTeams from "./components/Teams/BuildTeams/BuildTeams";
+import Testimonials from "./components/Teams/Testimonials/Testimonials";
 import Work from "./components/Work/Work";
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
       <Collaborate />
       <Work />
       <Connect/>
+      <BuildWork/>
+      <BuildTeams/>
+      <Testimonials/>
     </div>
   );
 }
