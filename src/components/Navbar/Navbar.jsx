@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <header className="border-b bg-white font-sans min-h-[60px]">
-        <div className="flex max-w-[1200px] mx-auto justify-between px-2 md:px-10 items-center">
+        <div className="flex max-w-[1200px] mx-auto justify-between px-2 items-center">
           <div className="flex flex-wrap items-center justify-start  py-5 gap-x-5 relative">
             {/* Logo  */}
             <a href="javascript:void(0)">
