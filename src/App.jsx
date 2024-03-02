@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
-  return  <div>
-
-    <h1>Initial setup TechnoFix Job task</h1>
-
-  </div>
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
