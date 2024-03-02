@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner";
+import Collaborate from "./components/Collaborate/Collaborate";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Banner/>
+      <Collaborate/>
     </div>
   );
 }
