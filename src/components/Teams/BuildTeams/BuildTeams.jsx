@@ -41,12 +41,12 @@ const BuildTeams = () => {
   ];
   return (
     <div>
-      <div className="max-w-[1200px]  mx-auto px-4 py-20 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px]  mx-auto px-4 py-10 sm:px-6 lg:px-8">
         <div className="">
           <h2 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
           Built for all kinds of teams
           </h2>
-          <div className="mt-6 flex  gap-2 ">
+          <div className="mt-8 flex  gap-2 ">
             <div   className="inline-flex  flex-wrap gap-2 md:gap-3 lg:gap-2 rounded-full  ">
             {features.map((feature) => (
                 <button key={feature.id}
@@ -63,22 +63,22 @@ const BuildTeams = () => {
           </div>
         </div>
         <div className="mt-12 md:flex justify-between gap-5 ">
-          <div className="text-left mt-8 w-full md:w-1/3">
+          <div className="text-left  text-[18px]  mt-8 w-full md:w-1/3">
             
-            <ul className="mt-5 text-base leading-8 text-gray-500">
+            <ul className="mt-5 leading-8 text-gray-500">
                <li> <FaCheck className="inline w-3 h-3 mr-2"/>Build low-fi wireframes</li>
                <li> <FaCheck className="inline w-3 h-3 mr-2"/>Involve stakeholders in the design process</li>
                <li> <FaCheck className="inline w-3 h-3 mr-2"/>Run engaging design workshops</li>
             </ul>
             <a
-              className="text-base leading-6 font-medium text-indigo-600 hover:text-indigo-500 mt-8 block"
+              className=" text-[18px]  leading-6 font-medium text-indigo-600 hover:text-indigo-500 mt-5 block"
               href="#"
             >
               Learn more →
             </a>
-            <div className="mt-10">
-                <p className="text-base text-gray-500">Integrate your favorite tools</p>
-                <div className="flex  justify-start gap-5 mt-3">
+            <div className="mt-16">
+                <p className=" text-[18px]  text-gray-500">Integrate your favorite tools</p>
+                <div className="flex  justify-start gap-5 mt-6">
                      <img src={tools1} alt="" />
                      <img src={tools2} alt="" />
                      <img src={tools3} alt="" />

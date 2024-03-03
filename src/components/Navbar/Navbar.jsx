@@ -3,7 +3,7 @@ import { FaArrowRightLong, FaGlobe } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <div>
-      <header className="border-b bg-white font-sans min-h-[60px]">
+      <header className="border-b fixed w-full z-10 bg-white font-sans min-h-[60px]">
         <div className="flex max-w-[1200px] mx-auto justify-between px-2 items-center">
           <div className="flex flex-wrap items-center justify-start  py-5 gap-x-5 relative">
             {/* Logo  */}
@@ -162,7 +162,8 @@ const Navbar = () => {
           </div>
 
           {/* right side */}
-          <div className="flex items-center text-gray-600 gap-x-4 font-semibold text-base lg:order-1">
+          <div className="flex items-center space-x-4  text-gray-600  font-semibold text-base lg:order-1">
+            <div className="flex items-center hidden md:block space-x-4">
             <span className="text-sm  mt-1 ">
               <FaGlobe className="w-5 h-5 mr-1.5 inline mb-1" />
               EN
@@ -170,12 +171,13 @@ const Navbar = () => {
             <a href="javascript:void(0)">Contact</a>
             <a href="javascript:void(0)">Sales</a>
             <a href="javascript:void(0)">Login</a>
-            <button className="bg-[#007bff] hover:bg-blue-700 transition-all duration-300 text-white px-4 py-3 rounded-full text-sm ml-0">
+            </div>
+            <button className="bg-[#007bff] hover:bg-blue-700 transition-all duration-300 text-white px-4 py-2 md:py-3 rounded-full text-sm ml-0">
               Sign Up Free 
-              <FaArrowRightLong className="w-3  h-3 ml-1.5 inline" />
+              <FaArrowRightLong className="w-3  h-3 ml-1.5 mb-0.5 inline" />
             </button>
 
-            <button id="toggle" className="lg:hidden ml-7">
+            <button id="toggle" className="lg:hidden ml-3">
               <svg
                 className="w-7 h-7"
                 fill="#000"

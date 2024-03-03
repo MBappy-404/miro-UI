@@ -17,7 +17,7 @@ const Testimonials = () => {
             <FaArrowRightLong className="w-3  h-3 ml-1.5 inline" />
           </button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           <div
             className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
           >

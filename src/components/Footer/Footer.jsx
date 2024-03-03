@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className="bg-[#02033B] py-20  text-white">
             <div className="max-w-[1200px]  mx-auto px-2">
-    <div className=" px-4 py-12 lg:flex  md:items-center md:justify-between">
+    <div className=" px-4 py-12 lg:flex md:gap-10  md:items-center md:justify-between">
         <div className="md:flex">
         <div className="mb-8 md:mb-0">
             <h1 className="text-2xl font-bold mb-3">Scan. Detect. Remove.</h1>
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
         </div>
         </div>
-        <div className="bg-[#FDB235] p-6 md:mt-10 lg:-mt-16 rounded-3xl text-gray-800 w-full max-w-sm">
+        <div className="bg-[#FDB235] p-6 mt-16   lg:-mt-16 rounded-3xl text-gray-800 w-full max-w-sm">
             <h3 className="text-2xl  font-bold mb-3">Sign up to our newsletter</h3>
             <p className="text-sm font-medium py-3  mb-4">Receive the latest mobile security news, exclusive discounts &amp; offers straight to your inbox!</p>
             <form className="flex">
