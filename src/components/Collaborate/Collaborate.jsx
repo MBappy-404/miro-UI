@@ -3,9 +3,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const Collaborate = () => {
   return (
     <div className="py-10 md:py-20">
-      <div className="my-6 font-[sans-serif]">
-        <div className=" text-center max-w-3xl mx-auto mb-8">
-          <h2 className="text-2xl text-[#050038] w-full md:w-[70%] mx-auto  md:text-4xl font-extrabold">
+      <div className="my-6 ">
+        <div className=" text-center max-w-[1200px]  mx-auto mb-8">
+          <h2 className="text-2xl text-[#050038] w-full md:w-[70%] mx-auto leading-10  md:text-[48px] font-bold">
             Collaborate without constraints
           </h2>
         </div>

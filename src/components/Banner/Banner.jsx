@@ -9,12 +9,12 @@ import log5 from "../../assets/companies/Walmart_Index_Only.svg.png";
 const Banner = () => {
   return (
     <div>
-      <div className="font-sans text-[#333] max-w-[1200px] px-2 max-md:max-w-md mx-auto">
+      <div className="  text-[#333] max-w-[1200px] px-2 max-md:max-w-md mx-auto">
         <div className="grid md:grid-cols-2 items-center px-5 gap-6">
           {/* LEFT SIDE TEXT  */}
 
-          <div className=" ">
-            <h2 className="md:text-5xl text-3xl font-extrabold mb-4 md:!leading-[55px]">
+          <div className="w-full ">
+            <h2 className="md:text-[48px] text-3xl font-bold mb-4 md:leading-[55px]">
               Take ideas from <br /> better to best
             </h2>
             <p className="mt-4 text-base text-gray-500 w-full md:w-80 leading-relaxed">
@@ -43,11 +43,11 @@ const Banner = () => {
 
           {/* RIGHT SIDE IMAGE  */}
 
-          <div className="p-2">
+          <div className="p-2  w mt-10">
             <img
               src={BannerBg}
-              className="w-full h-full object-contain shadow-[0_2px_22px_-10px_rgba(93,96,127,0.2)]"
-              alt="Dining Experience"
+              className="w-full h-full  "
+              alt="Banner"
             />
           </div>
         </div>

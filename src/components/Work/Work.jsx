@@ -3,10 +3,10 @@ import workImage from "../../assets/hybridwork.png.png";
 
 const Work = () => {
   return (
-    <div>
-      <div className="grid md:grid-cols-2 items-center md:gap-20  gap-5 font-[sans-serif] text-[#333] max-w-5xl max-md:max-w-md mx-auto">
+    <div >
+      <div className="grid md:grid-cols-2 items-center md:gap-20  gap-5 font-[sans-serif] text-[#333] max-w-[1200px]  max-md:max-w-md mx-auto">
         <div className="max-md:order-1 max-md:text-center">
-          <h2 className="md:text-4xl text-3xl md:leading-10 font-extrabold text-[#333] mb-4">
+          <h2 className="md:text-[48px] text-3xl md:leading-10 font-bold text-[#333] mb-4">
           Work together, <br /> wherever you work
           </h2>
           <p className="mt-4 text-base text-[#666] leading-relaxed">

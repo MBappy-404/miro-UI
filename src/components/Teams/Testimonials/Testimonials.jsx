@@ -7,12 +7,12 @@ import team3 from "../../../assets/Team/team3.png"
 const Testimonials = () => {
   return (
     <div>
-      <div className="max-w-6xl mx-auto px-4 py-12">
+      <div className="max-w-[1200px]  mx-auto px-4 py-12">
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-4xl text-center font-bold">
             Loved by the worlds best teams
           </h2>
-          <button className="border border-blue-400  mt-5 text-blue-400 text-base   w-full md:w-[25%] transition-all duration-300  px-4 py-2.5 rounded-full  ml-0">
+          <button className="border border-blue-400  mt-10 text-blue-400 text-base    md:w-[25%] transition-all duration-300  px-4 py-2.5 rounded-full  ml-0">
           See all customer stories
             <FaArrowRightLong className="w-3  h-3 ml-1.5 inline" />
           </button>
@@ -20,7 +20,6 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
           <div
             className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
-            
           >
             <div className="p-6">
               <h3 className="text-4xl font-bold">vmware</h3>

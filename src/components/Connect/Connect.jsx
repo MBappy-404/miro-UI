@@ -4,7 +4,7 @@ import sectionBg from "../../assets/section.png";
 
 const Connect = () => {
   return (
-    <div className="mx-auto max-w-5xl max-md:max-w-md ">
+    <div className="mx-auto max-w-[1200px]   ">
       <div className="grid md:grid-cols-2 items-center md:gap-20  gap-5 font-[sans-serif] text-[#333] ">
         <div className="md:h-[450px]">
           <img
@@ -14,7 +14,7 @@ const Connect = () => {
           />
         </div>
         <div className="max-md:order-1 max-md:text-center">
-          <h2 className="md:text-4xl text-3xl md:leading-10 font-extrabold text-[#333] mb-4">
+          <h2 className="md:text-[48px] text-3xl md:leading-10 font-bold text-[#333] mb-4">
             Connect your tools, close your tabs
           </h2>
           <p className="mt-4 text-base text-[#666] leading-relaxed">
@@ -29,8 +29,8 @@ const Connect = () => {
           </div>
         </div>
       </div>
-      <div>
-        <img src={sectionBg} alt="" />
+      <div className="flex w-full justify-center">
+        <img src={sectionBg} className="w-full" alt="image" />
       </div>
     </div>
   );

@@ -41,25 +41,25 @@ const BuildTeams = () => {
   ];
   return (
     <div>
-      <div className="max-w-6xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px]  mx-auto px-4 py-20 sm:px-6 lg:px-8">
         <div className="">
-          <h2 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
+          <h2 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
           Built for all kinds of teams
           </h2>
           <div className="mt-6 flex  gap-2 ">
+            <div   className="inline-flex  flex-wrap gap-2 md:gap-3 lg:gap-2 rounded-full  ">
             {features.map((feature) => (
-              <div key={feature.id} className="inline-flex  rounded-full  ">
-                <button
+                <button key={feature.id}
                   onClick={() => setActive(feature.name)}
                   className={`inline-flex items-center border justify-center 
                   ${!active ? feature.id === '1' ? "bg-gray-200" : "" : active}  
                    rounded-full text-sm font-medium   transition-colors  ${
-                    active === feature.name ? "bg-gray-200 " : "" }  h-10 px-5 py-2`}
+                    active === feature.name ? "bg-gray-200 " : "" }  h-10 px-4 py-2`}
                 >
                   {feature.name}
                 </button>
-              </div>
             ))}
+            </div>
           </div>
         </div>
         <div className="mt-12 md:flex justify-between gap-5 ">
@@ -86,8 +86,8 @@ const BuildTeams = () => {
                 </div>
             </div>
           </div>
-          <div className=" w-full md:w-2/3">
-            <img src={workJpg} alt="" />
+          <div className=" w-full mt-6 md:mt-0 md:w-2/3">
+            <img src={workJpg} className=" shadow-md" alt="" />
           </div>
         </div>
       </div>
