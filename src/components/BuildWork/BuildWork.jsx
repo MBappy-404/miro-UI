@@ -37,7 +37,7 @@ const BuildWork = () => {
   ];
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto px-4 py-20 sm:px-6 lg:px-8">
+      <div className="max-w-[1200px] mx-auto   py-20    ">
         <div className="">
           <h2 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
             Built for the way you work
@@ -84,7 +84,7 @@ const BuildWork = () => {
           </div>
         </div>
       </div>
-      ;
+      
     </div>
   );
 };

@@ -1,4 +1,3 @@
-
 import Banner from "./components/Banner/Banner";
 import BuildWork from "./components/BuildWork/BuildWork";
 import Collaborate from "./components/Collaborate/Collaborate";
@@ -13,14 +12,16 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Banner />
-      <Collaborate />
-      <Work />
-      <Connect/>
-      <BuildWork/>
-      <BuildTeams/>
-      <Testimonials/>
-      <Footer/>
+      <div className="px-3 md:px-0">
+        <Banner />
+        <Collaborate />
+        <Work />
+        <Connect />
+        <BuildWork />
+        <BuildTeams />
+        <Testimonials />
+      </div>
+      <Footer />
     </div>
   );
 }

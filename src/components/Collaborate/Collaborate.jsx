@@ -15,7 +15,7 @@ const Collaborate = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-20   mx-auto">
           <div className="h-auto p-2 rounded-md mx-auto   bg-white relative">
             <h2 className="text-xl text-[#050038] font-bold">Free forever</h2>
-            <p className="text-sm  md:text-base text-left text-gray-400 mt-5 leading-relaxed">
+            <p className="  md:text-[18px] text-left text-gray-400 mt-5 leading-relaxed">
               The service was amazing. I never had to wait that long for my
               food. The staff was friendly and attentive, and the delivery was
               impressively prompt.
@@ -25,7 +25,7 @@ const Collaborate = () => {
             <h2 className="text-xl text-[#050038] font-bold">
               Easy integrations
             </h2>
-            <p className="text-sm  md:text-base text-left text-gray-400 mt-5 leading-relaxed">
+            <p className="  md:text-[18px] text-left text-gray-400 mt-5 leading-relaxed">
               Miro has 100+ powerful integrations with tools you already use
               like G Suite, Slack, and Jira, so your workflow is seamless. View
               the full list in our Marketplace .
@@ -33,7 +33,7 @@ const Collaborate = () => {
           </div>
           <div className="h-auto p-2 rounded-md mx-auto   bg-white relative">
             <h2 className="text-xl text-[#050038] font-bold">Security first</h2>
-            <p className="text-sm  md:text-base text-left text-gray-400 mt-5 leading-relaxed">
+            <p className="  md:text-[18px] text-left text-gray-400 mt-5 leading-relaxed">
               We treat your data like you would — with the utmost care. We
               follow industry-leading security standards and give you tools to
               protect intellectual property. Learn more at our Trust Center .
@@ -42,7 +42,7 @@ const Collaborate = () => {
         </div>
         {/* button  */}
         <div className="flex justify-center mt-5 md:mt-16">
-          <button className="bg-[#007bff] hover:bg-blue-700 mt-3   transition-all duration-300 text-white px-5 py-3 rounded-full text-sm">
+          <button className="bg-[#007bff] hover:bg-blue-700 mt-3   transition-all duration-300 text-white px-5 py-3 rounded-full text-base">
             Sign Up Free
             <FaArrowRightLong className="w-3  h-3 ml-1.5 mb-1 inline" />
           </button>

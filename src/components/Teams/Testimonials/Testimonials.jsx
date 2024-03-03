@@ -7,7 +7,7 @@ import team3 from "../../../assets/Team/team3.png"
 const Testimonials = () => {
   return (
     <div>
-      <div className="max-w-[1200px]  mx-auto px-4 py-12">
+      <div className="max-w-[1200px]  mx-auto  py-12">
         <div className="flex flex-col justify-center items-center">
           <h2 className="text-4xl text-center font-bold">
             Loved by the worlds best teams
@@ -17,13 +17,13 @@ const Testimonials = () => {
             <FaArrowRightLong className="w-3  h-3 ml-1.5 inline" />
           </button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-16 mt-8">
           <div
             className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
           >
-            <div className="p-6">
-              <h3 className="text-4xl font-bold">vmware</h3>
-              <p className="mt-8  text-gray-600">
+            <div className="p-0">
+              <h3 className="text-3xl font-bold">vmware</h3>
+              <p className="mt-8  text-[18px] text-gray-600">
                 “When the pandemic hit, those of us who thrive on in-person
                 collaboration were worried that our creativity and productivity
                 would suffer. Miro was the perfect tool to help us with
@@ -48,9 +48,9 @@ const Testimonials = () => {
             className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
             
           >
-            <div className="p-6">
-              <h3 className="text-4xl font-bold">DocuSign</h3>
-              <p className="mt-8  text-gray-600">
+            <div className="p-0">
+              <h3 className="text-3xl font-bold">DocuSign</h3>
+              <p className="mt-8  text-[18px] text-gray-600">
                 “Miro helps solve one of the major gaps in product design: how
                 to manage tasks across product designers whose projects are in
                 different tools.”
@@ -74,9 +74,9 @@ const Testimonials = () => {
             className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
             
           >
-            <div className="p-6">
-              <h3 className="text-4xl font-bold">frog</h3>
-              <p className="mt-8  text-gray-600">
+            <div className="p-0">
+              <h3 className="text-3xl font-bold">frog</h3>
+              <p className="mt-8  text-[18px] text-gray-600">
                 “As we used Miro we moved from skepticism to belief to
                 innovation, and now we have a tool that’s at the core of what we
                 do and will continue to extend into the future.”

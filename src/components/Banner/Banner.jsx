@@ -9,15 +9,15 @@ import log5 from "../../assets/companies/Walmart_Index_Only.svg.png";
 const Banner = () => {
   return (
     <div className="">
-      <div className=" text-[#333] max-w-[1200px] pt-20 px-2  mx-auto">
-        <div className="grid md:grid-cols-2 items-center px-5 gap-6">
+      <div className=" text-[#333] max-w-[1200px] pt-24 mx-auto">
+        <div className="grid md:grid-cols-2 items-center  gap-6">
           {/* LEFT SIDE TEXT  */}
 
           <div className="w-full   ">
-            <h2 className="md:text-[48px] text-3xl -mt-2 font-bold mb-4 md:leading-[50px]">
+            <h2 className="md:text-[48px]  tracking-wide text-3xl font-bold mb-4 md:leading-[50px]">
               Take ideas from <br /> better to best
             </h2>
-            <p className="mt-4 text-base text-gray-500 w-full md:w-80 leading-relaxed">
+            <p className="mt-4  text-[18px]  text-gray-500 w-full md:w-[80%] leading-relaxed">
               Miro is your teams visual platform to connect, collaborate, and
               create — together.
             </p>
@@ -71,7 +71,7 @@ const Banner = () => {
 
           {/* RIGHT SIDE IMAGE  */}
 
-          <div className="p-2 w-full  mt-10">
+          <div className="w-full">
             <img
               src={BannerBg}
               className="w-full"
@@ -84,7 +84,7 @@ const Banner = () => {
 
         <div>
             <p className="text-base py-10 text-gray-400 text-center">Trusted by 45M+ users</p>
-          <div className="mt-5 grid grid-cols-2 md:grid-cols-5 gap-5 md:gap-0 px-0 md:px-16   mx-auto   items-center">
+          <div className="mt-5 grid grid-cols-3 md:grid-cols-5 gap-5 md:gap-0 px-0 md:px-16   mx-auto   items-center">
             
             <img src={log5} className="mx-auto w-28" alt="google-logo" />
             <img src={log4} className="mx-auto w-12" alt="google-logo" />

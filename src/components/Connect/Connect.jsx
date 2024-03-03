@@ -1,23 +1,23 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import connectImage from "../../assets/connect.png";
-import sectionBg from "../../assets/section.png";
+import sectionBg from "../../assets/connect2.png";
 
 const Connect = () => {
   return (
     <div className="mx-auto max-w-[1200px]   ">
       <div className="grid md:grid-cols-2 items-center md:gap-20  gap-5 font-[sans-serif] text-[#333] ">
-        <div className="md:h-[450px]">
+        <div className="max-w-[550px]">
           <img
             src={connectImage}
-            className="w-full h-full object-cover rounded-lg  "
+            className="w-full h-full  rounded-lg  "
             alt="Dining Experience"
           />
         </div>
-        <div className="max-md:order-1 max-md:text-center">
+        <div className="max-md:order-1 ">
           <h2 className="md:text-[48px] text-3xl md:leading-[50px] font-bold text-[#333] mb-4">
-            Connect your tools, close your tabs
+            Connect <br /> your tools, <br /> close your tabs
           </h2>
-          <p className="mt-4 text-base text-[#666] leading-relaxed">
+          <p className="mt-4 text-[18px] text-[#666] leading-relaxed">
             Whether you want to edit your Google Docs, resolve Jira issues, or
             collaborate over Zoom, Miro has 100+ integrations with tools you
             already use and love.
@@ -29,8 +29,24 @@ const Connect = () => {
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center">
-        <img src={sectionBg} className="w-full" alt="image" />
+      <div
+        className="flex w-full my-10 justify-center"
+        style={{ backgroundImage: `url(${sectionBg})`, backgroundRepeat:"no-repeat", backgroundSize:"cover" }} 
+      >
+        <div className="py-52 w-full flex  items-center justify-end px-20">
+          <div className="text-center mt-5">
+            <h2 className="md:text-[22px] text-3xl md:leading-[50px] font-bold text-[#333]">
+              The Ways We Work
+            </h2>
+            <p className="text-[18px] font-semibold">
+              How has our relationship with work changed?
+            </p>
+            <button className="bg-[#007bff] mx-auto hover:bg-blue-700 mt-3  w-[200px]  transition-all duration-300 text-white px-5 py-3.5 rounded-full text-base">
+              Sign Up Free
+              <FaArrowRightLong className="w-3  h-3 ml-1.5 mb-1 inline" />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
