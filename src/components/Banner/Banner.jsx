@@ -42,7 +42,7 @@ const Banner = () => {
               </p>
             </div>
             {/* Rating Section */}
-            <div className="bg-[#F5F5F7] flex mt-10 rounded-lg mx-auto md:mx-0 items-center justify-between w-[70%] px-5 py-3">
+            <div className="bg-[#F5F5F7] flex mt-10 rounded-lg mx-auto md:mx-0 items-center justify-between w-full md:w-[70%] px-5 py-3">
               <div className="text-yellow-500">
                 <div className="flex gap-1">
                   <FaStar className="w-5 h-5 " />
