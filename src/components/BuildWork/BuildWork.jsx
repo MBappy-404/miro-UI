@@ -37,7 +37,7 @@ const BuildWork = () => {
   ];
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto   py-20    ">
+      <div className=" py-20    ">
         <div className="">
           <h2 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
             Built for the way you work
@@ -63,23 +63,23 @@ const BuildWork = () => {
           </div>
         </div>
         <div className="mt-12 md:flex justify-between gap-5 ">
-          <div className="text-left mt-8 w-full md:w-1/3">
+          <div className="text-left mt-8 w-full md:w-[360px]">
             <h3 className="text-lg leading-6 font-medium text-gray-900">
               {active ? active : "Brainstorming"}
             </h3>
-            <p className="mt-5  text-[18px] leading-6 text-gray-500">
+            <p className="mt-8  text-[18px] leading-6 text-gray-500">
               Unleash creative ideas and build on them with the help of sticky
               notes, images, mind maps, videos, drawing capabilities — the list
               goes.
             </p>
             <a
-              className=" text-[18px] leading-6 font-medium text-indigo-600 hover:text-indigo-500 mt-5 block"
+              className=" text-[18px] leading-6 font-medium text-indigo-600 hover:text-indigo-500 mt-8 block"
               href="#"
             >
               Learn more →
             </a>
           </div>
-          <div className=" w-full md:w-2/3">
+          <div className=" w-full pt-5 md:pt-0 flex justify-end md:w-[700px]">
             <img src={workJpg} alt="" />
           </div>
         </div>

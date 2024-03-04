@@ -1,11 +1,10 @@
 import { FaFacebookF, FaMinus, FaTwitter, FaYoutube } from "react-icons/fa6";
 
- 
 
 const Footer = () => {
     return (
         <div className="bg-[#02033B] py-20  text-white">
-            <div className="max-w-[1200px]  mx-auto px-2">
+            <div className="max-w-[1140px]  mx-auto px-2">
     <div className=" px-4 py-12 lg:flex md:gap-10  md:items-center md:justify-between">
         <div className="md:flex">
         <div className="mb-8 md:mb-0">

@@ -7,9 +7,9 @@ import team3 from "../../../assets/Team/team3.png"
 const Testimonials = () => {
   return (
     <div>
-      <div className="max-w-[1200px]  mx-auto  py-12">
+      <div className="  py-12">
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-4xl text-center font-bold">
+          <h2 className="text-3xl md:text-[48px] text-center font-bold">
             Loved by the worlds best teams
           </h2>
           <button className="border border-blue-400  mt-10 text-blue-400 text-base    md:w-[25%] transition-all duration-300  px-4 py-2.5 rounded-full  ml-0">
@@ -17,11 +17,11 @@ const Testimonials = () => {
             <FaArrowRightLong className="w-3  h-3 ml-1.5 inline" />
           </button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-16 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-16 mt-10 md:mt-20">
           <div
-            className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
+             className="rounded-lg shadow-lg md:shadow-none py-5   text-center md:text-left  w-full"
           >
-            <div className="p-0">
+            <div className="p-0 mt-8 md:mt-5 lg:mt-0 ">
               <h3 className="text-3xl font-bold">vmware</h3>
               <p className="mt-8  text-[18px] text-gray-600">
                 “When the pandemic hit, those of us who thrive on in-person
@@ -29,7 +29,7 @@ const Testimonials = () => {
                 would suffer. Miro was the perfect tool to help us with
                 collaboration, whiteboarding, and retrospectives while remote.”
               </p>
-              <div className="flex items-center mt-4">
+              <div className="flex items-center  justify-center md:justify-start text-left mt-4 pt-0 lg:pt-5">
                 <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                   <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                   <img src={team1} alt="" />
@@ -45,17 +45,17 @@ const Testimonials = () => {
             </div>
           </div>
           <div
-            className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
+             className="rounded-lg shadow-lg md:shadow-none py-5   text-center md:text-left  w-full"
             
           >
-            <div className="p-0">
+            <div className="p-0 mt-8 md:mt-5 lg:mt-0 ">
               <h3 className="text-3xl font-bold">DocuSign</h3>
               <p className="mt-8  text-[18px] text-gray-600">
                 “Miro helps solve one of the major gaps in product design: how
                 to manage tasks across product designers whose projects are in
                 different tools.”
               </p>
-              <div className="flex items-center mt-4">
+              <div className="flex items-center  justify-center md:justify-start text-left pt-0 lg:pt-24 mt-5">
                 <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                   <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                   <img src={team2} alt="" />
@@ -71,17 +71,17 @@ const Testimonials = () => {
             </div>
           </div>
           <div
-            className="rounded-lg   bg-card text-card-foreground shadow-sm w-full"
+             className="rounded-lg shadow-lg md:shadow-none py-5   text-center md:text-left  w-full"
             
           >
-            <div className="p-0">
+            <div className="p-0 mt-8 md:mt-5 lg:mt-0 ">
               <h3 className="text-3xl font-bold">frog</h3>
               <p className="mt-8  text-[18px] text-gray-600">
                 “As we used Miro we moved from skepticism to belief to
                 innovation, and now we have a tool that’s at the core of what we
                 do and will continue to extend into the future.”
               </p>
-              <div className="flex items-center mt-4">
+              <div className="flex items-center  justify-center md:justify-start text-left mt-5 pt-0 lg:pt-[70px]">
                 <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
                   <span className="flex h-full w-full items-center justify-center rounded-full bg-muted">
                   <img src={team3} alt="" />
@@ -98,7 +98,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      ;
+  
     </div>
   );
 };

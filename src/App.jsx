@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="px-3 md:px-0">
+      <div className="px-3 md:px-5 max-w-[1140px] mx-auto lg:px-3">
         <Banner />
         <Collaborate />
         <Work />

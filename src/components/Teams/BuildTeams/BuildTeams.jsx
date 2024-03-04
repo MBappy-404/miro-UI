@@ -41,9 +41,9 @@ const BuildTeams = () => {
   ];
   return (
     <div>
-      <div className="max-w-[1200px]  mx-auto py-10 sm:px-6  ">
+      <div className=" py-10   ">
         <div className="">
-          <h2 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
+          <h2 className="text-3xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
           Built for all kinds of teams
           </h2>
           <div className="mt-8 flex  gap-2 ">
@@ -86,7 +86,7 @@ const BuildTeams = () => {
                 </div>
             </div>
           </div>
-          <div className=" w-full mt-6 md:mt-0 md:w-2/3">
+          <div className=" w-full mt-6 md:mt-0 flex justify-end md:w-2/3">
             <img src={workJpg} className=" shadow-md" alt="" />
           </div>
         </div>
