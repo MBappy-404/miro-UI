@@ -2,6 +2,9 @@
 
 The Miro project is a user interface (UI) built using React.js and Tailwind CSS.
 
+[Visit Miro-](https://miro-ui-4v1g.vercel.app)
+
+
 ## Dependencies
 
 - **React** (^18.2.0): A JavaScript library for building user interfaces.
@@ -20,8 +23,6 @@ To install the Miro project and its dependencies, follow these steps:
 
 After installing the dependencies, you can start the development server using the command `npm start`.
 
-## Tailwind CSS
-
-Tailwind CSS is a utility-first CSS framework that allows you to build custom designs quickly. It provides a wide range of utility classes that you can use to style your components without writing custom CSS.
+ 
 
  

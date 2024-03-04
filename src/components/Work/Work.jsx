@@ -17,7 +17,7 @@ const Work = () => {
             are.
           </p>
           {/* Call to Action */}
-          <div className="mt-8 flex max-sm:flex-col sm:space-x-4 max-sm:space-y-6">
+          <div className="mt-8 flex  justify-center md:justify-start">
             <a className="text-blue-600 text-[18px] underline" href="https://app.miro.com">
               Learn more <FaArrowRightLong className="inline ml-1 w-3 h-3 " /> 
             </a>

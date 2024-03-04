@@ -58,7 +58,7 @@ console.log(features);
       <div className="py-10">
         <div className="">
           {/* Header */}
-          <h2 className="text-3xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
+          <h2 className="text-3xl tracking-tight font-bold text-gray-900 md:text-[48px]">
             Built for all kinds of teams
           </h2>
           {/* Features section */}

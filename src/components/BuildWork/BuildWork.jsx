@@ -49,7 +49,7 @@ const BuildWork = () => {
       <div className="py-20">
         {/* Title */}
         <div>
-          <h2 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-[48px]">
+          <h2 className="text-3xl tracking-tight font-bold text-gray-900   md:text-[48px]">
             Built for the way you work
           </h2>
           {/* Feature Buttons */}
